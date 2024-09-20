@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="ru.mirea.asalinao.mireaproject.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/dataFragment"
+        android:name="ru.mirea.asalinao.mireaproject.DataFragment"
+        android:label="Information"
+        tools:layout="@layout/fragment_data" />
+    <fragment
+        android:id="@+id/webFragment"
+        android:name="ru.mirea.asalinao.mireaproject.WebFragment"
+        android:label="Gismeteo.ru"
+        tools:layout="@layout/fragment_web" />
+
+    <fragment
+        android:id="@+id/backgroundWorkerTipsFragment"
+        android:name="ru.mirea.asalinao.mireaproject.BackgroundWorkerTipsFragment"
+        android:label="Weather tips"
+        tools:layout="@layout/fragment_background_worker_tips" />
+
+    <fragment
+        android:id="@+id/voiceRecorderFragment"
+        android:name="ru.mirea.asalinao.mireaproject.VoiceRecorderFragment"
+        android:label="Voice recorder"
+        tools:layout="@layout/fragment_voice_recorder" />
+
+    <fragment
+        android:id="@+id/cameraFragment"
+        android:name="ru.mirea.asalinao.mireaproject.CameraFragment"
+        android:label="Camera"
+        tools:layout="@layout/fragment_camera" />
+    <fragment
+        android:id="@+id/compassFragment"
+        android:name="ru.mirea.asalinao.mireaproject.CompassFragment"
+        android:label="Compass"
+        tools:layout="@layout/fragment_compass" />
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="ru.mirea.asalinao.mireaproject.ProfileFragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/fileOperationsFragment"
+        android:name="ru.mirea.asalinao.mireaproject.FileOperationsFragment"
+        android:label="File operations"
+        tools:layout="@layout/fragment_file_operations" />
+    <fragment
+        android:id="@+id/establishmentsFragment"
+        android:name="ru.mirea.asalinao.mireaproject.EstablishmentsFragment"
+        android:label="Map"
+        tools:layout="@layout/fragment_establishments" />
+
+</navigation>
